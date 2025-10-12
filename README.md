@@ -24,6 +24,7 @@ Biblioteca gratuita para geração dos arquivos SPED e demais declarações nece
   - [EFD Fiscal](#sped-efd-fiscal)
     - [Instalação](#sped-efd-fiscal-instalacao)
     - [Modo de usar](#sped-efd-fiscal-modo-de-usar)
+- [Leitura de arquivos](#leitura-de-arquivos)
 - [Apoie :D](#buy-me-a-coffee)
 - [Dúvidas](#need-help)
 - [Licença](#license)
@@ -140,6 +141,18 @@ public class MeuGeradorSped
     }
 }
 ```
+
+<p align="right">(<a href="#title">voltar para o topo</a>)</p>
+
+## <a id="leitura-de-arquivos" /> 📁 Leitura de arquivos
+
+Precisa apenas inspecionar um arquivo existente do SPED? O projeto contém um utilitário de linha de comando que usa as bibliotecas `FiscalBr.EFDFiscal` e `FiscalBr.EFDContribuicoes` para ler os registros e apresentar um resumo por bloco.
+
+```bash
+dotnet run --project src/FiscalBr.ReadSped -- caminho/para/arquivo.txt --tipo=efd-fiscal
+```
+
+O parâmetro `--tipo` pode ser omitido quando o utilitário consegue identificar automaticamente se o arquivo pertence ao EFD Fiscal ou ao EFD Contribuições. Ao final da execução são exibidos os principais dados do registro `0000`, o total de linhas lidas, eventuais erros encontrados e a quantidade de registros em cada bloco.
 
 <p align="right">(<a href="#title">voltar para o topo</a>)</p>
 
