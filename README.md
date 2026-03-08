@@ -26,6 +26,7 @@ Biblioteca gratuita para geração dos arquivos SPED e demais declarações nece
     - [Modo de usar](#sped-efd-fiscal-modo-de-usar)
 - [Apoie :D](#buy-me-a-coffee)
 - [Dúvidas](#need-help)
+- [Segurança](#security)
 - [Licença](#license)
 
 ## <a id="sped" /> SPED
@@ -160,6 +161,20 @@ Se as bibliotecas lhe ajudaram ou contribuiram de alguma forma, apoie. :D Ajude 
 ## <a id="need-help" /> Dúvidas? [![GitHub issues](https://img.shields.io/github/issues/orochasamuel/fiscalbr-net)](https://github.com/orochasamuel/fiscalbr-net/issues)
 
 Abra um issue na página do projeto no GitHub ou [clique aqui](https://github.com/orochasamuel/fiscalbr-net/issues).
+
+<p align="right">(<a href="#title">voltar para o topo</a>)</p>
+
+## <a id="security" /> Segurança
+
+Por favor, **nunca publique credenciais sensíveis** (por exemplo, API Keys, tokens e segredos) em issues, pull requests ou comentários.
+
+Caso uma credencial tenha sido exposta:
+
+1. Revogue a credencial imediatamente no provedor responsável.
+2. Gere uma nova credencial.
+3. Atualize os sistemas que dependem dela.
+
+Se precisar reportar um problema de segurança, abra uma issue sem incluir segredos.
 
 <p align="right">(<a href="#title">voltar para o topo</a>)</p>
 
